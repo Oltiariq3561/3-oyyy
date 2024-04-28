@@ -91,45 +91,87 @@ button {
     display: flex;
     margin-top: 80px;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .con1 {
     width: 278px;
     height: 160px;
     text-align: center;
-background-color: #EFEFFE;
-border-radius: 8px;
-padding-top: 13px;
+    background-color: #EFEFFE;
+    border-radius: 8px;
+    padding-top: 13px;
+    transition: all 1s;
 }
 
 .con2 {
     width: 278px;
     height: 160px;
-text-align: center;
-background-color:#E8FBFF;
-border-radius: 8px;
-padding-top: 13px;
+    text-align: center;
+    background-color: #E8FBFF;
+    border-radius: 8px;
+    padding-top: 13px;
+    transition: all 1s;
 }
 
 .con3 {
     width: 278px;
     height: 160px;
-text-align: center;
-background-color: #E5FFF1;
-border-radius: 8px;
-padding-top: 13px;
+    text-align: center;
+    background-color: #E5FFF1;
+    border-radius: 8px;
+    padding-top: 13px;
+    transition: all 1s;
 }
 
 .con4 {
     width: 278px;
     height: 160px;
-text-align: center;
-background-color: #EFEFFE;
-border-radius: 8px;
-padding-top: 13px;
+    text-align: center;
+    background-color: #EFEFFE;
+    border-radius: 8px;
+    padding-top: 13px;
+    transition: all 1s;
 }
-.p2{
-width: 98px;
+
+.p2 {
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.con1:hover {
+    transform: scale(120%);
+    background-color: #b7b7f1;
+}
+
+.con2:hover {
+    transform: scale(120%);
+    background-color: #aaedfa;
+}
+
+.con3:hover {
+    transform: scale(120%);
+    background-color: #a2efc6;
+}
+
+.con4:hover {
+    transform: scale(120%);
+    background-color: #afaff8;
+}
+.content2{
+width: 1185px;
+height: 273px;
 margin: 0 auto;
-margin-top: 8px;
+}
+.chapp{
+width: 584px;
+height: 273px;
+background-color: #0cdcda;
+border-radius: 10px;
+}
+.h2{
+font-weight: 600;
+font-size: 44px;
+color: white;
 }
