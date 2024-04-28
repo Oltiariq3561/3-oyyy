@@ -159,19 +159,149 @@ button {
     transform: scale(120%);
     background-color: #afaff8;
 }
-.content2{
-width: 1185px;
-height: 273px;
-margin: 0 auto;
+
+.content2 {
+    width: 1185px;
+    height: 273px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
 }
-.chapp{
-width: 584px;
-height: 273px;
-background-color: #0cdcda;
-border-radius: 10px;
+
+.chapp {
+    width: 584px;
+    height: 273px;
+    background-color: #1cbbb9;
+    border-radius: 10px;
+    display: flex;
+    transition: all 1s;
 }
-.h2{
-font-weight: 600;
-font-size: 44px;
-color: white;
+
+.chapp:hover {
+    transform: scale(104%);
+}
+
+.p4 {
+    font-weight: 600;
+    font-size: 44px;
+    color: white;
+    padding-top: 28px;
+}
+
+.capp {
+    padding-left: 16px;
+}
+
+.p3 {
+    width: 300px;
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.onn {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.onnn {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.p5 {
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.p6 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.oxiri {
+    width: 1187px;
+    height: 424px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+}
+
+.card1 {
+    width: 278px;
+    height: 424px;
+    border-radius: 16px;
+    border: 1px solid #DCDFE4;
+    transition: all 1s;
+}
+
+.p7 {
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.yozuv {
+    margin-left: 16px;
+}
+
+.p8 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plar {
+    display: flex;
+    padding-top: 16px;
+    gap: 8px;
+}
+
+.p9 {
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    padding-top: 3px;
+}
+
+.card2 {
+    width: 278px;
+    height: 424px;
+    border-radius: 16px;
+    border: 1px solid #DCDFE4;
+    transition: all 1s
+}
+
+.card3 {
+    width: 278px;
+    height: 424px;
+    border-radius: 16px;
+    border: 1px solid #DCDFE4;
+    transition: all 1s;
+}
+
+.card4 {
+    width: 278px;
+    height: 424px;
+    border-radius: 16px;
+    border: 1px solid #DCDFE4;
+    transition: all 1s;
+}
+.card1:hover {
+    transform: scale(105%);
+}
+.card2:hover {
+    transform: scale(105%);
+}
+.card3:hover {
+    transform: scale(105%);
+}
+.card4:hover {
+    transform: scale(105%);
 }
