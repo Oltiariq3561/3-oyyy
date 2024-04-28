@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+.continer {
+    width: 1440px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+select {
+    border: 1px solid white;
+    transition: all 0, 5s;
+    color: gray;
+    cursor: pointer;
+}
+
+.tepa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    position: fixed;
+    background-color: #fff;
+    width: 1440px;
+    margin-bottom: 70px;
+    height: 92px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ong {
+    text-decoration: none;
+    display: flex;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.back {
+    background-image: url("./img/div\ 1.svg");
+    width: 1440px;
+    height: 540px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    width: 689px;
+    height: 220px;
+}
+
+.h1 {
+    font-size: 52px;
+    margin-bottom: 8px;
+}
+
+.p {
+    font-style: 20px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+button {
+    width: 220px;
+    height: 48px;
+    border-color: #405741;
+    font-weight: 600;
+}
+
+.contentcha {
+    width: 1184px;
+    height: 160px;
+    margin: auto;
+    gap: 24px;
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.con1 {
+    width: 278px;
+    height: 160px;
+    text-align: center;
+background-color: #EFEFFE;
+border-radius: 8px;
+padding-top: 13px;
+}
+
+.con2 {
+    width: 278px;
+    height: 160px;
+text-align: center;
+background-color:#E8FBFF;
+border-radius: 8px;
+padding-top: 13px;
+}
+
+.con3 {
+    width: 278px;
+    height: 160px;
+text-align: center;
+background-color: #E5FFF1;
+border-radius: 8px;
+padding-top: 13px;
+}
+
+.con4 {
+    width: 278px;
+    height: 160px;
+text-align: center;
+background-color: #EFEFFE;
+border-radius: 8px;
+padding-top: 13px;
+}
+.p2{
+width: 98px;
+margin: 0 auto;
+margin-top: 8px;
+}
