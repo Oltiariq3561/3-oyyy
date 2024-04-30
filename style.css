@@ -27,10 +27,11 @@ select {
     font-size: 16px;
     position: fixed;
     background-color: #fff;
-    width: 1440px;
+    width: 100%;
     margin-bottom: 70px;
     height: 92px;
     z-index: 100;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -57,6 +58,7 @@ a {
     width: 1440px;
     height: 540px;
     margin: 0 auto;
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -218,7 +220,7 @@ button {
     font-size: 44px;
     font-weight: 600;
     text-align: center;
-    margin-top: 120px;
+    padding-top: 120px;
 }
 
 .p6 {
@@ -428,7 +430,7 @@ line-height: 27px;
   }
   
   .button:hover svg {
-    transform: translateX(8px);
+    transform: translateX(20px);
   }
   
   .text {
@@ -459,7 +461,134 @@ bottom: 2px;
     margin: -0.2em 0.8em 1em;
     position: absolute;
     display: flex;
-    transition: all 0.6s ease;
+    transition: all 0.6s linear;
   }
   
+  .accounts{
+    Width:1185px;
+    Height:234px;
+    Gap:16px;
+    display: flex;
+    margin: auto;
+}
+.account{
+width: 384px;
+height: 234px;
+border-radius: 8px;
+background-color: #fff;
+box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+.p13{
+    padding-left: 24px;
+    padding-top: 24px;
+    width: 350px;
+    height: 96px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.backgroundd{
+background-color: #E9F8EF;
+width: 1440px;
+height: 663px;
+margin-top: 120px;
+border-radius: 24px;
+padding-bottom: 120px;
+}
+.imgc{
+padding-left: 24px;
+padding-top: 40px;
+}
+
+.footer{
+    margin-top: 120px;
+width: 1440px;
+height: 448px;
+}
+.p15{
+width: 490px;
+height: 96px;
+opacity: 80%;
+margin-top: 16px;
+line-height: 24px;
+}
+.iconn{
+margin-top: 16px;
+display: flex;
+gap: 15px;
+}
+.wrappp{
+    margin: auto;
+width: 1186px;
+height: 267px;
+gap: 88px;
+display: flex;
+}
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
   
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    --background: #28096b;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px #fff000;
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color: #522ba7;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+  }
+
+  .container-fluid{
+margin-bottom: 70px;
+}
+
+.fwrap{
+display: flex;
+justify-content: space-between;
+}
+.fong{
+display: flex;
+gap: 24px;
+color: gray;
+}
+.fchap{
+color: gray;
+}
+
